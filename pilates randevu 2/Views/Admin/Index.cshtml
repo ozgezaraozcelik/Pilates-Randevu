@@ -1,0 +1,54 @@
+﻿@model List<RandevuKayıt>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    int itemId = 0;
+}
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card shadow-sm">
+                <div class="card-header bg-dark text-white text-center">
+                    <h4>Randevular Listesi</h4>
+                </div>
+                <div class="card-body">
+                    <table class="table table-hover">
+                        <thead class="table-dark">
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Eğitmen Adı</th>
+                                <th scope="col">Başlangıç Tarihi</th>
+                                <th scope="col">Bitiş Tarihi</th>
+                                <th scope="col">Kullanıcı</th>
+                                <th scope="col">Hizmet</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Randevular burada listelenecek -->
+                            @foreach(var item in Model)
+                            {
+                                itemId++;
+                                <tr>
+                                    <th scope="row">@itemId</th>
+                                    <td>@item.egitmen_Adi</td>
+                                    <td>@item.randevu_Baslangic_Tarihi</td>
+                                    <td>@item.randevu_Bitis_Tarihi</td>
+                                    <td>@item.KullaniciId</td>
+                                    <td>@item.HizmetId</td>
+                                    <td>
+                                        <a href="/Admin/Update/@item.Id" class="btn btn-sm btn-warning">Güncelle</a>
+                                        <a href="/Admin/Delete/@item.Id" class="btn btn-sm btn-danger">Sil</a>
+                                    </td>
+                                </tr>
+                            }
+                            <!-- Diğer randevular -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

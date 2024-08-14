@@ -1,0 +1,54 @@
+﻿@model AppointmentUpdateDTO
+@{
+    ViewData["Title"] = "Update";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-sm">
+                <div class="card-header bg-warning text-white text-center">
+                    <h4>Randevu Güncelle</h4>
+                </div>
+                <div class="card-body">
+                    <form method="post" asp-action="Update">
+                        <input type="hidden" asp-for="KullaniciId" placeholder="ViewBag.kullaniciId" />
+                        <div class="mb-3">
+                            <label for="egitmen_adi" class="form-label">Eğitmen Adı</label>
+                            <select class="form-select" id="egitmen_adi" asp-for="egitmen_Adi">
+                                <option selected>Seçiniz...</option>
+                                <option value="beyza_salman">Beyza Salman</option>
+                                <option value="zeynep_soylemez">Zeynep Söylemez</option>
+                                <option value="kadir_yalcin">Kadir Yalçın</option>
+                                <option value="eren_sen">Eren Şen</option>
+                                <option value="ozge_zara">Özge Zara</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="appointmentTime" class="form-label">Randevu Başlangıç Tarihi</label>
+                            <input type="datetime-local" class="form-control" id="appointmentTime" asp-for="randevu_Baslangic_Tarihi">
+                        </div>
+                        <div class="mb-3">
+                            <label for="appointmentTime" class="form-label">Randevu Bitiş Tarihi</label>
+                            <input type="datetime-local" class="form-control" id="appointmentTime" asp-for="randevu_Bitis_Tarihi">
+                        </div>
+                        <div class="mb-3">
+                            <label for="appointmentService" class="form-label">Hizmet Seçimi</label>
+                            <select class="form-control" id="appointmentService" asp-for="HizmetId">
+                                <option value="1">Pilates - Başlangıç Seviyesi</option>
+                                <option value="2">Pilates - Orta Seviye</option>
+                                <option value="3">Pilates - İleri Seviye</option>
+                                <option value="5">Pilates - Esneme ve Denge</option>
+                                <option value="6">Pilates - Kardiyo</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-info w-100">Randevuyu Güncelle</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

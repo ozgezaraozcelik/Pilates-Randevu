@@ -1,0 +1,43 @@
+﻿@model RegisterDTO
+@{
+    ViewData["Title"] = "Register";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-sm">
+                <div class="card-header bg-success text-white text-center">
+                    <h4>Kayıt Ol</h4>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Register" method="post">
+                        <div class="mb-3">
+                            <label for="namesurname" class="form-label">Ad Soyad</label>
+                            <input type="text" class="form-control" id="namesurname" placeholder="Ad Soyad girin" asp-for="ad_soyad">
+                        </div>
+                        <div class="mb-3">
+                            <label for="birthdate" class="form-label">Doğum Tarihi</label>
+                            <input type="date" class="form-control" id="birthdate" placeholder="Doğum Tarihi girin" asp-for="dogum_Tarihi">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">E-posta</label>
+                            <input type="email" class="form-control" id="email" placeholder="E-posta adresinizi girin" asp-for="e_posta">
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Şifre</label>
+                            <input type="password" class="form-control" id="password" placeholder="Şifrenizi girin" asp-for="sifre">
+                        </div>
+                        <button type="submit" class="btn btn-success w-100">Kayıt Ol</button>
+                    </form>
+                </div>
+                <div class="card-footer text-center">
+                    <small>Zaten hesabınız var mı? <a href="#">Giriş Yapın</a></small>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

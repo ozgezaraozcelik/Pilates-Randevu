@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Masa\u00FCst\u00FC\\pilates randevu 2 (2)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{14F35F7B-EB9F-4775-80DC-5E9E9C8BDB0A}|pilates randevu 2\\pilates randevu 2.csproj|d:\\masa\u00FCst\u00FC\\pilates randevu 2 (2)\\pilates randevu 2\\views\\appointment\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14F35F7B-EB9F-4775-80DC-5E9E9C8BDB0A}|pilates randevu 2\\pilates randevu 2.csproj|solutionrelative:pilates randevu 2\\views\\appointment\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14F35F7B-EB9F-4775-80DC-5E9E9C8BDB0A}|pilates randevu 2\\pilates randevu 2.csproj|d:\\masa\u00FCst\u00FC\\pilates randevu 2 (2)\\pilates randevu 2\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14F35F7B-EB9F-4775-80DC-5E9E9C8BDB0A}|pilates randevu 2\\pilates randevu 2.csproj|solutionrelative:pilates randevu 2\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14F35F7B-EB9F-4775-80DC-5E9E9C8BDB0A}|pilates randevu 2\\pilates randevu 2.csproj|d:\\masa\u00FCst\u00FC\\pilates randevu 2 (2)\\pilates randevu 2\\views\\admin\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14F35F7B-EB9F-4775-80DC-5E9E9C8BDB0A}|pilates randevu 2\\pilates randevu 2.csproj|solutionrelative:pilates randevu 2\\views\\admin\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14F35F7B-EB9F-4775-80DC-5E9E9C8BDB0A}|pilates randevu 2\\pilates randevu 2.csproj|d:\\masa\u00FCst\u00FC\\pilates randevu 2 (2)\\pilates randevu 2\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14F35F7B-EB9F-4775-80DC-5E9E9C8BDB0A}|pilates randevu 2\\pilates randevu 2.csproj|solutionrelative:pilates randevu 2\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14F35F7B-EB9F-4775-80DC-5E9E9C8BDB0A}|pilates randevu 2\\pilates randevu 2.csproj|d:\\masa\u00FCst\u00FC\\pilates randevu 2 (2)\\pilates randevu 2\\migrations\\20240814121416_mig1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14F35F7B-EB9F-4775-80DC-5E9E9C8BDB0A}|pilates randevu 2\\pilates randevu 2.csproj|solutionrelative:pilates randevu 2\\migrations\\20240814121416_mig1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14F35F7B-EB9F-4775-80DC-5E9E9C8BDB0A}|pilates randevu 2\\pilates randevu 2.csproj|d:\\masa\u00FCst\u00FC\\pilates randevu 2 (2)\\pilates randevu 2\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14F35F7B-EB9F-4775-80DC-5E9E9C8BDB0A}|pilates randevu 2\\pilates randevu 2.csproj|solutionrelative:pilates randevu 2\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "D:\\Masa\u00FCst\u00FC\\pilates randevu 2 (2)\\pilates randevu 2\\Views\\Admin\\Update.cshtml",
+              "RelativeDocumentMoniker": "pilates randevu 2\\Views\\Admin\\Update.cshtml",
+              "ToolTip": "D:\\Masa\u00FCst\u00FC\\pilates randevu 2 (2)\\pilates randevu 2\\Views\\Admin\\Update.cshtml",
+              "RelativeToolTip": "pilates randevu 2\\Views\\Admin\\Update.cshtml",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAcwBoAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T12:31:04.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\Masa\u00FCst\u00FC\\pilates randevu 2 (2)\\pilates randevu 2\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "pilates randevu 2\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\Masa\u00FCst\u00FC\\pilates randevu 2 (2)\\pilates randevu 2\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "pilates randevu 2\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwBkAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T12:30:57.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Masa\u00FCst\u00FC\\pilates randevu 2 (2)\\pilates randevu 2\\Views\\Appointment\\Index.cshtml",
+              "RelativeDocumentMoniker": "pilates randevu 2\\Views\\Appointment\\Index.cshtml",
+              "ToolTip": "D:\\Masa\u00FCst\u00FC\\pilates randevu 2 (2)\\pilates randevu 2\\Views\\Appointment\\Index.cshtml",
+              "RelativeToolTip": "pilates randevu 2\\Views\\Appointment\\Index.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T12:29:43.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppointmentController.cs",
+              "DocumentMoniker": "D:\\Masa\u00FCst\u00FC\\pilates randevu 2 (2)\\pilates randevu 2\\Controllers\\AppointmentController.cs",
+              "RelativeDocumentMoniker": "pilates randevu 2\\Controllers\\AppointmentController.cs",
+              "ToolTip": "D:\\Masa\u00FCst\u00FC\\pilates randevu 2 (2)\\pilates randevu 2\\Controllers\\AppointmentController.cs",
+              "RelativeToolTip": "pilates randevu 2\\Controllers\\AppointmentController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwBkAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T12:29:32.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20240814121416_mig1.cs",
+              "DocumentMoniker": "D:\\Masa\u00FCst\u00FC\\pilates randevu 2 (2)\\pilates randevu 2\\Migrations\\20240814121416_mig1.cs",
+              "RelativeDocumentMoniker": "pilates randevu 2\\Migrations\\20240814121416_mig1.cs",
+              "ToolTip": "D:\\Masa\u00FCst\u00FC\\pilates randevu 2 (2)\\pilates randevu 2\\Migrations\\20240814121416_mig1.cs",
+              "RelativeToolTip": "pilates randevu 2\\Migrations\\20240814121416_mig1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T12:14:17.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Masa\u00FCst\u00FC\\pilates randevu 2 (2)\\pilates randevu 2\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "pilates randevu 2\\Context\\AppDbContext.cs",
+              "ToolTip": "D:\\Masa\u00FCst\u00FC\\pilates randevu 2 (2)\\pilates randevu 2\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "pilates randevu 2\\Context\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T12:04:36.386Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+﻿@model LoginDTO
+@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+                <div class="card-header bg-primary text-white text-center">
+                    <h4>Giriş Yap</h4>
+                </div>
+                <div class="card-body">
+                    <form method="post" asp-action="Login">
+                        <div class="mb-3">
+                            <label for="email" class="form-label">E-posta</label>
+                            <input type="email" class="form-control" id="email" placeholder="E-posta adresinizi girin" asp-for="e_posta">
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Şifre</label>
+                            <input type="password" class="form-control" id="password" placeholder="Şifrenizi girin" asp-for="sifre">
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Giriş Yap</button>
+                    </form>
+                </div>
+                <div class="card-footer text-center">
+                    <small>Hesabınız yok mu? <a href="#">Kayıt Olun</a></small>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

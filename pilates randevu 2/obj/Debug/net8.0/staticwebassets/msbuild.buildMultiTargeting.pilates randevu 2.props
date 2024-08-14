@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\pilates randevu 2.props" />
+</Project>
